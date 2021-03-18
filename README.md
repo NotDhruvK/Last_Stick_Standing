@@ -20,23 +20,28 @@ To corner your opponent by leaving them only one line to cut.
         | | | |
        | | | | |
 
+
  4. The numbers which correspond to each line will be printed out beside the board.
  5. You have to select where to start cutting and how many total lines to cut.
  6. Suppose you select to cut the 1st line. You enter position 1 and number of lines to cut as 1.
  7. The board will be updated and printed as.
+
           +
          | |
         | | |
        | | | |
       | | | | |
 
+
  8. Suppose you want to cut from the second vertical line in the last row through the end of the row.
  9. You would have to enter the starting position as 12 and total number of lines to cut as 4.
  10. This will produce the following result
+
           +
          | |
         | | |
        | | | |
       | +-+-+-+
+
 
  11. The starting positions will be printed alongside the current game board every time.
