@@ -1,4 +1,4 @@
-#          Line strike game
+#          Last Stick Standing
 
 ## Objective
 To corner your opponent by leaving them only one line to cut.

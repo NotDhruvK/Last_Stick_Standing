@@ -15,7 +15,7 @@ int main()
 {
   bool quit{false};
   bool name_switcher {true};
-  cout << "\t\t\t\t\tWelcome to the Line Strike game.";
+  cout << "\t\t\t\t\tWelcome to Last Stick Standing.";
   print_rules();
   do
   {
