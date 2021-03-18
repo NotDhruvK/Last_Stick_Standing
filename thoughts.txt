@@ -1,0 +1,38 @@
+When will the game finish?
+  When there is only one line left un-striked.
+
+      |               |                1
+     +-+             | |              2 3
+    +-+ +           | | |            4 5 6
+   +-+ +-+         | | | |          7 8 9 10
+  +-+ +-+-+       | | | | |      11 12 13 14 15
+  The line need not be the one at the top.
+
+
+
+
+
+NOTES TO SELF:
+  The vector must contain the spaces as data elements, so that they may be striked.
+
+
+
+TO DO:
+  1. A function to check if a single line is left.
+  2. A function which replaces the '|' and the ' ' with '+' and '-' respectively.
+  3. A function which takes in the position of the lines and the no of lines to
+     the right of it to strike out.
+  4. A function which checks if the first element of the selected choice is a '+'.
+     If it is, return that the user needs to make a valid choice.
+  5. A function to check if the line beside the selected line is striked out.
+  6. A function which resets the game.
+
+FLOW OF THE GAME:
+  1. Users enter their names.
+  2. Users decide which player will play first.
+  3. player1 enters from where to where he wants to cut.
+  4. Check if it's a valid move
+  5. If valid change data structure.
+  6. print data structure.
+  7. check if someone has won.
+  8. If won end, if not repeat from step 3. 
